@@ -1,0 +1,55 @@
+/* etiqueta HTML va directamente el nombre */
+/* CLASES va con "." adelante */
+/* ID va con "#" adelante */
+
+body{
+background-color: rgb(199, 170, 226);
+color: aqua;
+}
+
+#redes{
+text-align: center;
+margin: auto;
+
+}
+
+li {
+list-style-type: none;
+margin-left: -3%;
+
+
+}
+
+
+
+.nombre{
+    font-size: 5rem;
+}
+
+.segundonombre{
+color: brown;
+
+}
+
+.letravideo{
+    font-size: 5rem;
+    background-color: black;
+    color: azure;
+
+
+}
+
+.video{
+    margin: 7rem;
+}
+
+.mapas{
+   /* padding: 10%;*/
+    border: 1rem solid black;
+  
+  }
+
+  #sobre{
+background-color: chartreuse;
+
+    }

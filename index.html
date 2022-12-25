@@ -1,71 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IAca va el titulo</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/99867a1cb0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>IAca va el titulo</title>
 </head>
+
 <body>
-    
-<h1>Delfin</h1>
+  <!-- seccion de navbar -->
+  <section id="navbar">
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item"> <i class="fa-brands fa-facebook"></i></li>
+            <li class="list-group-item"><i class="fa-brands fa-github"></i></li>
+            <li class="list-group-item"><i class="fa-brands fa-google"></i></li>
+          </ul>
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+            <i class="fa-solid fa-lock"></i>
+          </button>
+
+
+
+        </div>
+      </div>
+    </nav>
+
+
+  </section>
+
+
+
+  <h1>Delfin</h1>
+
+  <!-- comentario uno -->
+
+  <h1>Seccion uno</h1>
+  <div>
+    <a href="https://google.com" target="_blank">Ir a Google</a>
+  </div>
+
   
-<!-- comentario uno -->
-    <section>
-       <h1>Seccion uno</h1> 
-            <div>
-
-                <a href="https://google.com" target="_blank">Ir a Google</a>
-            </div>
-    </section>
-<!-- seccion redes -->
-    <section>
-        <h1>redes</h1>
-        <ul>
-            <li><a href="https://facebook.com" target="_blank">Ir a Facebook</a></li>
-            <li><a href="https://github.com/" target="_blank">Ir a Github</a></li>
-            <li><a href="https://google.com" target="_blank">Ir a Google</a></li>
+  <!-- SECCION SOBRE MI -->
+  <section id="sobre" class="border">
+  
+    <h2 class="text-center mt-4 pb-3">Sobre Mi</h2>
 
 
-        </ul>   
-        <section>
-            <h1>Seccion cuatro</h1> 
-            <!-- <img src="godinez.jpg" alt="Imagen de godinez" title="Foto de Godinez"> -->
+<!-- COLUMNAS -->
 
-            <a href="https://www.youtube.com/embed/ufrCQjaa53s?start=5" target="_blank">
-                <img src="assets/img/godinez.jpg" alt="Imagen de godinez" title="Foto de Godinez">
-            </a>
-                
-           
-    
-        </section>
-        <hr>
-<!-- MAPA -->
-        <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.494865402274!2d-65.44885298492588!3d-24.846942584060297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc2cbf1c1c11f%3A0xcda908da7d6040b5!2sRadio%20Belgrano%202831%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1671191592552!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <br>
-            <label for="">Escribir algo</label>
-            <input type="pa" placeholder="Aqui se escribe">
-        <button type="submit">Enviar </button>
-        </section>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <h1 class="nombre">Godinez <span class="segundonombre">Chavo del Ocho</h1>
+        <h3>Del chavo</h3>
 
-        <section>
-            <h1>Seccion tres</h1>  
+        <h1>Seccion tres</h1>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non error maiores, fuga soluta temporibus tenetur neque, numquam labore, eligendi saepe magnam asperiores sit. Consequatur a quis officiis quas vel?</p>
-        </section>
-    </section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non error maiores, fuga soluta temporibus
+          tenetur neque, numquam labore, eligendi saepe magnam asperiores sit. Consequatur a quis officiis quas vel?</p>
 
 
-    <section>
-        <h1>Videos</h1> 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ufrCQjaa53s?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col">
+        <div class="moverimagen">
+          <a href="https://www.youtube.com/embed/ufrCQjaa53s?start=5" target="_blank">
+            <img class="Clase" src="assets/img/godinez.jpg" alt="Imagen de godinez" title="Foto de Godinez">
+          </a>
+        </div>
+      </div>
 
-    </section>
+    </div>
+  </div>
 
-    <section>
-        <h1>Seccion seis</h1> 
 
-    </section>
+
+</section>
+
+
+<section id="editSobre" class="bg-dark p-4">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <button class="btn btn-light"> Editar Imagen</button>
+      </div>
+      <div class="col">
+        <button class="btn btn-light"> Editar Nombre</button>
+      </div>
+      <div class="col">
+        <button class="btn btn-light"> Editar Apellido</button>
+      </div>
+    </div>
+  </div>
+
+
+
+</section>
+
+
+
+
+
+  <!-- MAPA -->
+  <section id="mapa">
+
+    <h1>UBICACION</h1>
+    <iframe class="mapas"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.494865402274!2d-65.44885298492588!3d-24.846942584060297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc2cbf1c1c11f%3A0xcda908da7d6040b5!2sRadio%20Belgrano%202831%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1671191592552!5m2!1ses-419!2sar"
+      width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+    <label for="">Escribir algo</label>
+    <input type="pa" placeholder="Aqui se escribe">
+    <button type="submit">Enviar </button>
+  </section>
+
+
+
+  <!-- VIDEO -->
+  <section id="videos">
+    <h1 class="letravideo">Videos</h1>
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/ufrCQjaa53s?start=5"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+  </section>
+  <hr>
+  <section>
+    <h1>Seccion seis</h1>
+
+  </section>
+
+
+  <!-- Modal Login -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="loginModalLabel">Login</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Ingresar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>
